@@ -1,4 +1,4 @@
-gobledeigoop
+
 import sys                  #when doing stdin (standard input)  
                             #when using cmd line 
 ids = list()
