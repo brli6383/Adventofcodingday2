@@ -1,3 +1,0 @@
-# Adventofcodingday2
-
-garcia

@@ -1,4 +1,4 @@
-gobledeigoop
+
 import sys                  #when doing stdin (standard input)  
                             #when using cmd line 
 ids = list()
@@ -9,24 +9,24 @@ ids = list()
 for line in sys.stdin:              #stdin helps read initial characters in input.txt
     ids.append (line.strip())       #strip clears out whitespace
 
-# twos = 0
-# threes = 0
+twos = 0
+threes = 0
 
 
-# for id in ids:
-#     lineDict = dict()
-#     for char in id:
-#         if char in lineDict:
-#             lineDict[char] += 1
-#         else:
-#             lineDict[char] = 1
+for id in ids:
+    lineDict = dict()
+    for char in id:
+        if char in lineDict:
+            lineDict[char] += 1
+        else:
+            lineDict[char] = 1
 
-#     if 3 in lineDict.values():
-#         threes += 1
-#     if 2 in lineDict.values():
-#         twos += 1
+    if 3 in lineDict.values():
+        threes += 1
+    if 2 in lineDict.values():
+        twos += 1
 
-# print(twos * threes)
+print(twos * threes)
 
 ans = ""
 
