@@ -3,11 +3,11 @@ report = list(map(int, open('day1.txt', 'r')))
 
 count = 0
 
-# for x in range(len(report)-1):
-#     if report[x+1] > report[x]:
-#         count += 1
+for x in range(len(report)-1):
+    if report[x+1] > report[x]:
+        count += 1
 
-# print(count)
+print(count)
 
 
 for x in range(3,len(report)):
